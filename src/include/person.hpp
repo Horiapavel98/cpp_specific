@@ -30,7 +30,11 @@ class Footballer : public Person {
         void playFootball() { cout << "I can play football." << endl; }
 };
 
-int main() {
+void output() {
+    
+    cout << endl;
+
+    cout << "Inheritance example with Person class." << endl;
 
     cout << endl;
 
@@ -50,5 +54,11 @@ int main() {
 
     cout << endl;
 
-    return 0;
+    cout << "Inheritance example with Person class." << endl;
+
+    cout << endl;
+
+    cout << "End of file run." << endl;
+
+    cout << endl;
 }
