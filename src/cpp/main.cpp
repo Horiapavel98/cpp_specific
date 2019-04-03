@@ -1,5 +1,5 @@
-#include "../include/access_modifier.hpp"
+#include "../include/all_custom_headers.hpp"
 
 int main() {
-    output();
+    MultipleInheritance::output();
 }

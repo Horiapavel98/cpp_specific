@@ -1,6 +1,4 @@
-#include <iostream>
-
-using namespace std;
+#include "default_headers.hpp"
 
 class Person {
     public:
@@ -30,35 +28,39 @@ class Footballer : public Person {
         void playFootball() { cout << "I can play football." << endl; }
 };
 
-void output() {
-    
-    cout << endl;
 
-    cout << "Inheritance example with Person class." << endl;
+class PersonInheritance {
+public:
+    static void output() {
+        
+        cout << endl;
 
-    cout << endl;
+        cout << "Inheritance example with Person class." << endl;
 
-    MathsTeacher teacher;
-    teacher.profession = "Teacher";
-    teacher.age = 23;
-    teacher.display();
-    teacher.teachMaths();
+        cout << endl;
 
-    cout << endl;
+        MathsTeacher teacher;
+        teacher.profession = "Teacher";
+        teacher.age = 23;
+        teacher.display();
+        teacher.teachMaths();
 
-    Footballer footballer;
-    footballer.profession = "Footballer";
-    footballer.age = 19;
-    footballer.display();
-    footballer.playFootball();
+        cout << endl;
 
-    cout << endl;
+        Footballer footballer;
+        footballer.profession = "Footballer";
+        footballer.age = 19;
+        footballer.display();
+        footballer.playFootball();
 
-    cout << "Inheritance example with Person class." << endl;
+        cout << endl;
 
-    cout << endl;
+        cout << "Inheritance example with Person class." << endl;
 
-    cout << "End of file run." << endl;
+        cout << endl;
 
-    cout << endl;
-}
+        cout << "End of file run." << endl;
+
+        cout << endl;
+    }
+};

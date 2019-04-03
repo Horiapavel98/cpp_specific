@@ -1,5 +1,4 @@
-#include <iostream>
-using namespace std;
+#include "default_headers.hpp"
 
 class base {
 protected:
@@ -104,9 +103,13 @@ class derivedFromPrivateDerived : public privateDerived {
     }
 };
 */
-void output() {
-    derivedFromDerivedFromProtectedDerived p;
-    p.outputX();
-    p.outputY();
-}
+
+class AccessModifier {
+public:
+    static void output() {
+        derivedFromDerivedFromProtectedDerived p;
+        p.outputX();
+        p.outputY();
+    }
+};
 
