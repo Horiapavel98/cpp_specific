@@ -1,6 +1,6 @@
 # C++ specific constructs and syntax
 
-### Resources:
+## Resources
 
 Inheritance :https://www.programiz.com/cpp-programming/inheritance
 
