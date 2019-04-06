@@ -13,8 +13,13 @@ We have covered so far:
 * Overriding functions
 * Storage classes: auto, static, register, extern, mutable
 * Friend classes and functions
+* Explicit constructs
 
 To cover next:
 
 * Virtual functions
-* Explicit constructs
+* Virtual destructors
+* Pure virtual destructors
+* Volatility
+* Casting
+* Interfaces
