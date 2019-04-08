@@ -14,10 +14,10 @@ We have covered so far:
 * Storage classes: auto, static, register, extern, mutable
 * Friend classes and functions
 * Explicit constructs
+* Virtual functions
 
 To cover next:
 
-* Virtual functions
 * Virtual destructors
 * Pure virtual destructors
 * Volatility
