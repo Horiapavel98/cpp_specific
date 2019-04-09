@@ -15,11 +15,18 @@ We have covered so far:
 * Friend classes and functions
 * Explicit constructs
 * Virtual functions
-
-To cover next:
-
 * Virtual destructors
 * Pure virtual destructors
+* Virtual destruction using shared_ptr
 * Volatility
+* Scope resolution
+* 'Virtual constructor' - advanced.cpp
+
+To cover next:
 * Casting
 * Interfaces
+* Visual Studio 2017 - CMake : https://www.youtube.com/watch?time_continue=111&v=_lKxJjV8r3Y
+* What is CMake and how it is used in production?
+
+## Resources: 
+C++ weekly: https://www.youtube.com/user/lefticus1/videos
