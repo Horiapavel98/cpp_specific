@@ -21,10 +21,13 @@ We have covered so far:
 * Volatility
 * Scope resolution
 * 'Virtual constructor' - advanced.cpp
+* Casting
 
 To cover next:
-* Casting
+* void* pointer
+* Abstract classes
 * Interfaces
+* Preprocessor directives: http://www.cplusplus.com/doc/tutorial/preprocessor/
 * Visual Studio 2017 - CMake : https://www.youtube.com/watch?time_continue=111&v=_lKxJjV8r3Y
 * What is CMake and how it is used in production?
 
