@@ -1,4 +1,5 @@
-#include "../include/all_custom_headers.hpp"
+#include <iostream>
+using namespace std;
 
 void func() {
     static int count = 0;
