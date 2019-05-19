@@ -1,0 +1,23 @@
+{
+
+    "workbench.colorCustomizations": {
+		"statusBar.background": "#ff63be",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.debuggingBackground": "#ffffff",
+		"statusBar.debuggingForeground": "#000000",
+		"terminal.ansiBrightRed": "#ee3355",
+		"terminal.ansiBrightYellow": "#ffcc55",
+		"terminal.ansiBrightGreen": "#a5ea4f",
+		"terminal.ansiBrightBlue": "#9655ff",
+		"terminal.ansiBrightCyan": "#42ecff",
+		"terminal.foreground": "#ffffff"
+	},
+
+    "files.associations": {
+        "iostream": "cpp",
+        "memory": "cpp",
+        "xhash": "cpp",
+        "type_traits": "cpp"
+	},
+	"C_Cpp.errorSquiggles": "Enabled"
+}
