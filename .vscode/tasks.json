@@ -2,14 +2,14 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "void_pointer",
+      "label": "merge_sort",
       "type": "shell",
       "command": "g++",
       "args": [
         "-g",
-        "src/cpp/void_pointer.cpp",
+        "src/algos/merge_sort.cpp",
         "-o",
-        "bin/void_pointer"
+        "bin/merge_sort"
       ],
       "group": {
         "kind": "build",
